@@ -5,4 +5,11 @@
 // ‘answer’.
 // return the answer.
 
-void main() {}
+int func(int a) {
+  int b = a % 3;
+  return b;
+}
+
+void main() {
+  print(func(8));
+}
